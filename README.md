@@ -46,12 +46,14 @@ From your shell or command line:
 #### Register the client app
 1. In **App registrations (Preview)** page, select **Register an Application**.
 2. When the **Register an application page** appears, enter your application's registration information:
-   - In the **Name** section, enter a meaningful application name that will be displayed to users of the app, for example `Console App for Microsoft Graph`
+   - In the **Name** section, enter a meaningful application name that will be displayed to users of the app, for 
+   example `Console App for MS Graph`
    - In the **Supported account types** section, select **Accounts in any organizational directory and personal Microsoft accounts (e.g. Skype, Xbox, Outlook.com)**.
    - Select **Register** to create the application.
 3. On the app **Overview** page, find the **Application (client) ID** value and record it for later. You'll need it to configure the Visual Studio configuration file for this project.
 4. In the list of pages for the app, select **Authentication**
-   - In the *Suggested Redirect URIs for public clients(mobile,desktop)*, check the second box so that the app can work with the MSAL libs used in the application. (The box should contain the option *urn:ietf:wg:oauth:2.0:oob*). 
+   - In the *Redirect URIs* select *Public client(mobile & desktop) and as value enter *urn:ietf:wg:oauth:2.0:oob*). 
+   - Save the changes
 5. In the list of pages for the app, select **API permissions**
    - Click the **Add a permission** button and then,
    - Ensure that the **Microsoft APIs** tab is selected.
