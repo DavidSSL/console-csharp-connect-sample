@@ -72,7 +72,7 @@ Open the solution in Visual Studio to configure the projects.
 
 1. In the *console-csharp-connect-sample* folder, rename the `appsettings.json.example` file to `appsettings.json`
 1. Open and edit the `appsettings.json` file to make the following change
-    1. Find the line where `ClientId` is set as `YOUR_CLIENT_ID_HERE` and replace the existing value with the application (client) ID of the `Console App for Microsoft Graph` application copied from the Azure portal.
+    1. Find the line where `ClientId` is set as `YOUR_CLIENT_ID_HERE` and replace the existing value with the application (client) ID of the `Console App for MS Graph` application copied from the Azure portal.
 
 <a name="build-and-run-sample"></a>
 ### Step 4: Build and run the sample 
